@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Inicializador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="344dp"
+        android:padding="12dp"
+        android:text="@string/iniciar_pomodoro"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="426dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="@string/tempo_minutos"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="252dp"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lista1</string>
+    <string name="tempo_minutos">Tempo (minutos)</string>
+    <string name="iniciar_pomodoro">Iniciar Pomodoro</string>
+</resources>
